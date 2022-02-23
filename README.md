@@ -2,7 +2,7 @@
 I modified the code to include the ability to filter GPX files by years. 
 Click command option to include --year. Please see examples below.
 
-This is a form of https://github.com/TomCasavant/GPXtoHeatmap
+This is a fork of https://github.com/TomCasavant/GPXtoHeatmap
 
 
 
