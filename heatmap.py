@@ -37,8 +37,7 @@ def load_points(folder, filter, year):
                 gpx_year = gpx.tracks[0].segments[0].points[0].time.year
 
                 if not year or gpx_year in year:
-                    print(
-                        f"INPUT YEAR... {year} files with type {gpx_year} GPX YEAR...")
+                   # print(f"INPUT YEAR... {year} files with type {gpx_year} GPX YEAR...")
                     for track in gpx.tracks:
                         if not filter or filter == track.type:
                             for segment in track.segments:
