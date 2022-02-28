@@ -74,3 +74,4 @@ def generate_html(points, file_out):
 
 if __name__ == '__main__':
     main()
+    
