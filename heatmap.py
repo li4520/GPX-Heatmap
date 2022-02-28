@@ -33,14 +33,20 @@ def load_points(folder, filter, year):
                 gpx_file = open(os.path.join(folder, filename))
                 gpx = gpxpy.parse(gpx_file)
 
-                # Verify if year is not NONE or if gpx's year is equal to the year (tuple) specificed in the command
-                if not year or gpx.time.year in year:
+                # Grab the year value from the first "point" in GPX file
+                gpx_year = gpx.tracks[0].segments[0].points[0].time.year
+
+                if not year or gpx_year in year:
+                    print(
+                        f"INPUT YEAR... {year} files with type {gpx_year} GPX YEAR...")
                     for track in gpx.tracks:
                         if not filter or filter == track.type:
                             for segment in track.segments:
                                 for point in segment.points:
                                     coords.append(
                                         [float(point.latitude), float(point.longitude)])
+                else:
+                    continue
 
     return (coords)
 
