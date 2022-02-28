@@ -28,7 +28,7 @@ Options:
   --filter [running|cycling|walking]
                                   Specify a filter type. Defaults to no filter
   --help                          Show this message and exit.
-  --year                          Specify y a filter type. Defaults to no year. Multiple years can be accepted
+  --year                          Specify a year. Defaults to no year. Multiple years can be accepted
 ```
 
 Examples:
