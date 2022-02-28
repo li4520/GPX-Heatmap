@@ -43,5 +43,5 @@ $ python3 heatmap.py --input gpx --output map3 --year 2019 --year 2020
 
 - Garmin users can use [garminexport](https://github.com/petergardfjall/garminexport) to export GPX data.
 - Strava users can follow [Strava's instructions](https://support.strava.com/hc/en-us/articles/216918437-Exporting-your-Data-and-Bulk-Export) to export GPX data
-- Convert Fit files into GPX [fit2gpx](https://github.com/dodo-saba/fit2gpx) 
+- Convert FIT files into GPX [fit2gpx](https://github.com/dodo-saba/fit2gpx) 
 
