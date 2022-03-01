@@ -1,8 +1,10 @@
 # GPX to Heatmap Overview
-I modified the code to include the ability to filter GPX files by years. 
-Click command option to include --year. Please see examples below.
-
 This is a fork of https://github.com/TomCasavant/GPXtoHeatmap
+
+I modified the code to include the ability to filter GPX files by year(s). 
+* Added Click command option for --year. Please see examples below.
+
+
 
 
 
