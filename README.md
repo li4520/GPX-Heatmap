@@ -1,8 +1,10 @@
 # GPX to Heatmap Overview
-This is a fork of https://github.com/TomCasavant/GPXtoHeatmap
 
-I modified the code to include the ability to filter GPX files by year(s). 
-* Added Click command option for --year. Please see examples below.
+I needed a way to generate heatmap for all my rides
+* This is a fork of https://github.com/TomCasavant/GPXtoHeatmap
+* I modified the code to include the abiity to filter GPX files by year(s)
+* Added Click command option for --year. Please see examples below on
+
 
 
 
