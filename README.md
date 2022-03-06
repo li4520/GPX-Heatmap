@@ -26,13 +26,12 @@ $ python3 heatmap.py --help
 Usage: heatmap.py [OPTIONS]
 
 Options:
-  --output TEXT                   Specify the name of the output file.
-                                  Defaults to `map`
-  --input TEXT                    Specify an input folder. Defaults to `gpx`
+  --output TEXT                   Specify the name of the output file. Defaults to `map`.
+  --input TEXT                    Specify an input folder - this is where all your GPX files should be. Defaults to `gpx`.
   --filter [running|cycling|walking]
                                   Specify a filter type. Defaults to no filter
   --help                          Show this message and exit.
-  --year                          Specify a year. Defaults to no year. Multiple years can be accepted
+  --year                          Specify a year to filter the GPX files. Defaults to no year. Multiple years can be accepted
 ```
 
 Examples:
