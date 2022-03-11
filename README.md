@@ -3,7 +3,7 @@
 I needed a way to generate heatmap for all my rides
 * This is a fork of https://github.com/TomCasavant/GPXtoHeatmap
 * I modified the code to include the abiity to filter GPX files by year(s)
-* Added Click command option for --year. Please see examples below on
+* Added Click command option for --year. Please see examples below
 
 
 
